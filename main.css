@@ -5,24 +5,23 @@ body {
 }
 
 .header {
-    background-color: #008080; /* 使用您希望的蓝绿色背景 */
-    text-align: left; /* 左对齐以匹配示例 */
+    background-color: #008080; /* 蓝绿色背景 */
     padding: 20px;
-    display: flex;
-    align-items: center;
+    text-align: left;
 }
 
-.header img {
-    vertical-align: middle;
-    height: 80px; /* 根据需要调整logo大小 */
+.logo {
+    height: 60px; /* 根据需要调整logo的大小 */
 }
 
-.header h1 {
-    display: inline-block;
-    margin: 0;
-    padding-left: 20px; /* 保持文本与logo之间的间距 */
+.title {
+    text-align: center; /* 标题居中 */
+    margin: 20px 0; /* 添加一些上下外边距以增加视觉间距 */
+}
+
+.title h1 {
     font-size: 24px;
-    color: white; /* 确保标题文字在深色背景下可见 */
+    color: #333;
 }
 
 .content {
