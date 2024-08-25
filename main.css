@@ -7,7 +7,9 @@ body {
 .header {
     background-color: #008080; /* 蓝绿色背景 */
     padding: 20px;
-    text-align: left;
+    display: flex;
+    justify-content: flex-end; /* 将内容推到右边 */
+    align-items: center; /* 垂直居中 */
 }
 
 .logo {
